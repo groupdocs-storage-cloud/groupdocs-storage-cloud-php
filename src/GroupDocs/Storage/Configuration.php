@@ -97,11 +97,11 @@ class Configuration
     protected $host = 'https://api.groupdocs.cloud/';
 
     /*
-     * The base path, set to '/v1.0' by default
+     * The base path, set to '/v1.1' by default
      *
      * @var string
      */
-    protected $basePath = '/v1.0';
+    protected $basePath = '/v1.1';
 
     /*
      * User agent of the HTTP request, set to 'php sdk' by default
@@ -135,7 +135,7 @@ class Configuration
      * Version of GroupDocs.Storage Cloud API
      *
      */
-    protected $clientVersion = '1.0';
+    protected $clientVersion = '18.4';
 
     /*
      * Constructor

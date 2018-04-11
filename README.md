@@ -46,4 +46,4 @@ Please put your credentials into [Configuration](src/GroupDocs/Storage/Configura
 - referenced packages (see [here](composer.json) for more details)
 
 ## Contact Us
-Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/).
+Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/c/storage).

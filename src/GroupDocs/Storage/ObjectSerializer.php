@@ -301,7 +301,14 @@ class ObjectSerializer
 
                 $propertyValue = $data->{$property};
                 if (isset($propertyValue)) {
-                    $instance->$propertySetter(self::deserialize($propertyValue, $type, null));
+					if ($type === '\DateTime')
+					{
+						$instance->$propertySetter(new \DateTime($propertyValue));
+					}
+					else
+					{
+						$instance->$propertySetter(self::deserialize($propertyValue, $type, null));
+					}
                 }
             }
             return $instance;

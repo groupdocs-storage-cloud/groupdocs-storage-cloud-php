@@ -91,9 +91,9 @@ class StorageApi
          *
          * @param Requests\PutCreateRequest $request is a request object for operation
          *
-         * @throws \Aspose\Storage\ApiException on non-2xx response
+         * @throws \GroupDocs\Storage\ApiException on non-2xx response
          * @throws \InvalidArgumentException
-         * @return \Aspose\Storage\Model\UploadResponse
+         * @return \GroupDocs\Storage\Model\UploadResponse
          */
     public function putCreate(Requests\PutCreateRequest $request)
     {

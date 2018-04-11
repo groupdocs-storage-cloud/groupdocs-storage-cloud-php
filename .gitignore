@@ -24,9 +24,9 @@ test-results/
 node_modules/
 *.userprefs
 packages/
-Plugins/Aspose_Storage_NET_for_PHP/.idea/*
-Plugins/Aspose_Storage_NET_for_PHP/vendor/*
-Plugins/Aspose_Storage_NET_for_PHP/composer.lock
+Plugins/GroupDocs_Storage_NET_for_PHP/.idea/*
+Plugins/GroupDocs_Storage_NET_for_PHP/vendor/*
+Plugins/GroupDocs_Storage_NET_for_PHP/composer.lock
 *.gitattributes
 *.pyc
 # Built application files
