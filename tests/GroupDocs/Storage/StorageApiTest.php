@@ -1,7 +1,7 @@
 <?php
 /**
  * --------------------------------------------------------------------------------------------------------------------
-* <copyright company="Aspose Pty Ltd" file="Aspose\Storage\ApiTest.php">
+* <copyright company="Aspose Pty Ltd" file="GroupDocs\Storage\StorageApiTest.php">
  *   Copyright (c) 2018 GroupDocs.Storage for Cloud
  * </copyright>
  * <summary>
