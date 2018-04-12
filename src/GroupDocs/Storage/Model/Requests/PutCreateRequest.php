@@ -2,7 +2,7 @@
 
 /*
  * --------------------------------------------------------------------------------------------------------------------
- * <copyright company="AsposePty Ltd" file="PutCreateRequest.php">
+ * <copyright company="Aspose Pty Ltd" file="PutCreateRequest.php">
  *   Copyright (c) 2018 GroupDocs.Storage for Cloud
  * </copyright>
  * <summary>

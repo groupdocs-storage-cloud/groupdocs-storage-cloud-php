@@ -3,7 +3,7 @@ This repository contains GroupDocs.Storage Cloud SDK for PHP source code. This S
 See [API Reference](https://apireference.groupdocs.cloud/storage/) for full API specification.
 
 ## How to use the SDK?
-The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/groupdocs/storage-sdk-php) (recommended). For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/storagecloud/Available+SDKs).
+The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/groupdocscloud/storage-sdk-php) (recommended). For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/storagecloud/Available+SDKs).
 
 ### Prerequisites
 
@@ -13,9 +13,9 @@ To use GroupDocs Storage for Cloud PHP SDK you need to register an account with 
 
 #### Via Composer:
 *storage-sdk-php* is available on Packagist as the
-[`storage-sdk-php`](https://packagist.org/packages/groupdocs/storage-sdk-php) package. Run the following command:
+[`storage-sdk-php`](https://packagist.org/packages/groupdocscloud/storage-sdk-php) package. Run the following command:
 ```bash
-composer require groupdocs/storage-sdk-php
+composer require groupdocscloud/storage-sdk-php
 ```
 
 To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
@@ -35,7 +35,7 @@ $path = "path/FileName.pdf";
 $versionId = null;
 $storage = "StorageName";
 $request = new Requests\GetDownloadRequest($path, $versionId, $storage);
-$result = $this->storageApi->getDownload($request);
+$result = $storageApi->getDownload($request);
 ```
       
 [Tests](tests/GroupDocs/Storage) contain various examples of using the SDK.
