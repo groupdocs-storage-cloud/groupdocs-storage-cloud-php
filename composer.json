@@ -1,6 +1,6 @@
 {
     "description": "This repository contains GroupDocs Storage Cloud SDK for PHP source code. GroupDocs Storage Cloud SDK for PHP is a true REST API that provides managers for multiple storage types.",
-    "name": "groupdocs/storage-sdk-php",
+    "name": "groupdocscloud/storage-sdk-php",
     "version": "18.4",
     "license": "MIT",
     "type": "library",
