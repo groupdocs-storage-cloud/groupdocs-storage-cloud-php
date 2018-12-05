@@ -1,9 +1,10 @@
 # GroupDocs.Storage Cloud SDK for PHP
 This repository contains GroupDocs.Storage Cloud SDK for PHP source code. This SDK allows you to work with GroupDocs.Storage Cloud REST APIs in your PHP applications quickly and easily, with zero initial cost.
+
 See [API Reference](https://apireference.groupdocs.cloud/storage/) for full API specification.
 
 ## How to use the SDK?
-The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/groupdocscloud/storage-sdk-php) (recommended). For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/storagecloud/Available+SDKs).
+The complete source code is available in this repository folder. You can either directly use it in your project via source code or via [Packagist distribution](https://packagist.org/packages/groupdocscloud/storage-sdk-php) (recommended). For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/gdstoragecloud/Home).
 
 ### Prerequisites
 
@@ -11,7 +12,8 @@ To use GroupDocs Storage for Cloud PHP SDK you need to register an account with 
 
 ### Installation
 
-#### Via Composer:
+#### Install storage-sdk-php via Composer:
+
 *storage-sdk-php* is available on Packagist as the
 [`storage-sdk-php`](https://packagist.org/packages/groupdocscloud/storage-sdk-php) package. Run the following command:
 ```bash
@@ -25,7 +27,7 @@ require_once('vendor/autoload.php');
 ```
 
 ### Sample usage
-
+The example below shows how your application has to initiate and download a file using storage-sdk-php library:
 ```php
 $config = new Configuration();
 $config->setAppKey('AppKey')->setAppSid('AppSid');
@@ -38,7 +40,7 @@ $request = new Requests\GetDownloadRequest($path, $versionId, $storage);
 $result = $storageApi->getDownload($request);
 ```
       
-[Tests](tests/GroupDocs/Storage) contain various examples of using the SDK.
+[Tests](tests/GroupDocs/Storage/) contain various examples of using the SDK.
 Please put your credentials into [Configuration](src/GroupDocs/Storage/Configuration.php).
 
 ## Dependencies
